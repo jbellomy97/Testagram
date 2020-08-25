@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Testagram</RootNamespace>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DiffPlex" Version="1.6.3" />
+    <PackageReference Include="Otp.NET" Version="1.2.2" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+    <PackageReference Include="Twilio" Version="5.46.0" />
+    <PackageReference Include="TwoFactorAuth.Net" Version="1.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\InstagramApiSharp\src\InstagramApiSharp\InstagramApiSharp.csproj" />
+  </ItemGroup>
+
+</Project>
